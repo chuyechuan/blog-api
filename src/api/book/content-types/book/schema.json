@@ -4,7 +4,7 @@
   "info": {
     "singularName": "book",
     "pluralName": "books",
-    "displayName": "book",
+    "displayName": "article",
     "description": ""
   },
   "options": {
@@ -17,6 +17,19 @@
     },
     "date": {
       "type": "datetime"
+    },
+    "rich": {
+      "type": "richtext"
+    },
+    "banner": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "Vue",
+        "React"
+      ]
     }
   }
 }
